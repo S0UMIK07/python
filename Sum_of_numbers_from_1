@@ -1,0 +1,8 @@
+
+num=int(input("Enter The Number you Want Sum\n"))
+n=num
+sum=0
+while(num):
+    sum=sum+num
+    num=num-1
+print("Total Sum from 1 to "+str(n)+" ="+str(sum))
